@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jo_QR_Code Responsive QR Code Website</title>
+
+                    <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/img/icons8-qr-code-50.png" type="image/x-icon">
+        
+
+                    <!-- Swipper CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+
+
+
+                    <!-- BOXICONS -->
+
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+                    <!-- Remix Icons -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--==================== UNICONS ====================-->
+       
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+                    
+
+
+                                <!-- Intro Js CSS -->
+
+
+        
+        
+
+        
+        
+        
+                            <!-- CSS -->
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+                    
+    
+
+
+
+    </head>
+    <body class>
+
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Jo_QR_Code <i class='bx bx-qr' ></i>
+                </a>
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt-2' ></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#create" class="nav__link">
+                                <i class="ri-qr-code-line"></i>
+                                <span>Create QR Code</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#scan" class="nav__link">
+                                <i class="ri-qr-scan-line"></i>
+                                <span>Scan QR Code</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#connect" class="nav__link">
+                                <i class='bx bx-phone' ></i>
+                                <span>Connect</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                
+            </nav>
+
+        </header>
+
+        <main class="main">
+
+            <section class="home section" id="home">
+              
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Discover <br> Most suitable <br> QR Code
+                        </h1>
+                        <p class="home__description" >
+                            This App that let you 
+                            forget all difficulties in Creating QR Code.
+                            We Provide The Option for Creating QR Code 
+                            with custom customization and QR Code Scanner 
+                
+                
+                        </p>
+
+                        <div class="home__search">
+                        <a href = "#create">       
+                            <button class="button start-create">Lets begin</button>
+                        </a> 
+                  </div>
+                      
+                        <div class="home__value">
+                            <div>
+                                <h1 class="home__value-number">
+                                     
+                                    Fast 
+                
+                                </h1>
+                                <span class="home__value-description">
+                                    Easy <br> To Use
+                                </span>
+                            </div>
+                
+                            <div>
+                                <h1 class="home__value-number">
+                                    Download
+                
+                                </h1>
+                                <span class="home__value-description">
+                                    QR Code <br> Instant
+                                </span>
+                            </div>
+                
+                
+                            <div>
+                                <h1 class="home__value-number">
+                                    Scan 
+                
+                                </h1>
+                                <span class="home__value-description">
+                                    QR Code <br> Instant
+                                </span>
+                            </div>
+                
+                
+                        </div>
+                    </div>
+                
+                    
+                </div>
+                
+
+            </section>
+
+           
+
+
+            <section class="value section" id="create">
+
+                <div class="value__container container grid">
+                    
+                    <div class="value__content">
+                        <div class="value__data">
+                            <h2 class="section__title">
+                                Create Your QR Code<span>.</span>
+
+                            </h2>
+                            <p class="value__description">
+                                Adjust the settings below to make your QR code look as you want.
+                            </p>
+                        </div>
+                        <div class="value__accordion">
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bx-rename value__accordion-icon'></i>
+                                    <h3 class="value-accordion-title">
+                                        Click Here To Type The Text / URL of Which you want to make QR Code
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        <input type="search" placeholder="Type You Want In QR - Code ..." class="search-input" id = "data" required>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    
+
+                        <div class="value__accordion">
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bx-border-outer value__accordion-icon' ></i>
+                                    <h3 class="value-accordion-title">
+                                        Select Margin of QR Code
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        <label for="margin">Margin</label>
+                                        <span id="margin-value" class="sub-label">1 px</span>
+                                        <div class="slider">
+                                            <input type="range" name="margin" id="margin" min="0" max="50" value="1" />
+                                        </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="value__accordion-function">
+                        <div class="value__data">
+                            <h2 class="section__title qrtitle">
+                                As You Click On Genrate We Will Create The QR Code  <span>.</span>
+
+                            </h2>
+                           
+                        </div>
+                        <button id="cta" class="button faded" disabled>Generate QR code</button>
+
+                        
+                        <div class="value__images">
+                            <div class="value__orbe"></div>
+                            <div class="value__img">
+                                <img src="" alt="qr-code" id="qr-code-image" name="qr-code">
+                            </div>
+                        </div>
+
+                        <a href="" class="button download__button" target="_blank" download = "QR-Code">
+                            Download <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+
+                    </div>
+                    </div>
+                </div>
+
+            </section>
+
+            
+            <section class="popular section" id="scan">
+                <div class="container">
+                    <span class="section__subtitle">If Sacnner Not Works Just Refresh The Page</span>
+                    <h2 class="section__title">
+                        Scan Your QR Code<span>.</span>
+                    </h2>
+                    <div class="popular__container">
+                        
+                            <article class="popular__card ">
+                               
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span></span>Click on 
+
+                                    </h2>
+
+                                    <h3 class="popular__title">Upload to Scan
+                                        
+                                    </h3>
+
+                                        <p class="popular__description">
+                                            <div class="wrapper">
+                                                <form action="#" class="qr-form">
+                                                  <input type="file" hidden>
+                                                  <img src="#" alt="qr-code" class="qr-image">
+                                                  <div class="content">
+                                                    <i class="fas fa-cloud-upload"></i>
+                                                    <p>Upload QR Code to Read
+                                                        <br>
+                                        <i class='bx bxs-cloud-upload' ></i>
+                                                    </p>
+                                                  </div>
+                                                </form>
+                                                <div class="details">
+                                                  <textarea spellcheck="false" disabled class="qr-text"></textarea>
+                                                  <div class="buttons">
+                                                    <button class="close">Close</button>
+                                                    <button class="copy">Copy Text</button>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                        </p>
+                                    
+
+                                </div>
+                            </article>
+
+                           
+                        
+                       
+                    </div>
+                </div>
+
+            </section>
+
+          
+            <section class="subscribe section connect" id = "connect">
+                <div class="subscribe__container container">
+                    <h1 class="subscribe__title">
+                        Have Enjoyed The Jo_QR_Code App 
+                    </h1>
+                    <p class="subscribe__description">
+                        The App is in Beta State and 
+                        will be more user Freindly. Please 
+                        Click On 'Enjoyed' If you Had.
+                    </p>
+                    <button href="" class="button subscribe__button" onclick="happy()">
+                        Enjoyed
+                    </button>
+                </div>
+                
+            </section>
+
+
+        </main>
+
+
+
+
+
+
+        <footer class="footer section">
+            
+            <div class="footer__info container grid">
+                <span class="footer__copy">
+                    &#169; Shubham Maurya. All rigths reserved
+                </span>
+                <div class="footer__privacy">
+                    <a href="">Terms & Agreements</a>
+                    <a href="">Privacy Policy</a>
+                </div>
+            </div>
+
+        </footer>
+
+
+                <!-- Sweet Alert -->
+
+    <script src="assets/js/sweetalert2.all.min.js"></script>
+
+                    <!-- SCROLL REVEL -->
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-chevrons-up' ></i>
+        </a>
+
+      
+                <!-- Swipper JS -->
+                
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    
+            <!-- Download -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js">
+    
+    </script>
+
+
+            <!-- Intro Js -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/intro.js@6.0.0/intro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/intro.js@6.0.0/intro.min.js"></script>
+    
+
+
+    <!-- MAIN JS -->
+
+     
+
+    <script src="assets/js/main.js"></script>
+
+  
+    
+    </body>
+</html>
+
