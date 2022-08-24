@@ -35,6 +35,6 @@
 
 This App Use the API that makes the QR Code of Text And To Read The API Used In this 
 
-### -->  <a href = "https://goqr.me/api/"> QR Code Generator </a> 
+### -->  <a href = "https://goqr.me/api/" target="_blank"> QR Code Generator </a> 
 
 If The App has Any Problem Please Drop A Mail Here ( risjiomaujio7654@gmail.com )
