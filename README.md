@@ -6,7 +6,7 @@
 ![image](https://user-images.githubusercontent.com/65014926/186323201-1d912786-af4b-43df-badb-fd56091ab13c.png)
 
 
-## To Visit Click Here https://shubham996633.github.io/Jo__QR__Code/
+## To Visit Click Here : https://shubham996633.github.io/Jo__QR__Code/
 
 
 _______________________________________________________________________________________________________________________________________________________
