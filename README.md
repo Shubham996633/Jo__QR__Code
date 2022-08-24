@@ -8,8 +8,12 @@
 
 ## To Visit Click Here 
 
-Link :
 
+
+
+
+
+# Step Wise Explanation Of Project 
 
 ## First Look
 
@@ -24,3 +28,13 @@ Link :
 ## Scan QR Code
 
 ![image](https://user-images.githubusercontent.com/65014926/186323172-f1481ba3-03d6-4de3-8802-ac06aec4ba18.png)
+
+
+
+## Note
+
+This App Use the API that makes the QR Code of Text And To Read The API Used In this 
+
+### -->  <a href = "https://goqr.me/api/"> QR Code Generator </a> 
+
+If The App has Any Problem Please Drop A Mail Here ( risjiomaujio7654@gmail.com )
